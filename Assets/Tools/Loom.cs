@@ -110,15 +110,6 @@ public class Loom
 
         }
 
-
-        //void OnDisable()
-        //{
-        //    if (_current == this)
-        //    {
-        //        _current = null;
-        //    }
-        //}
-
         List<NoDelayedQueueItem> _currentActions = new List<NoDelayedQueueItem>();
 
         // Update is called once per frame
